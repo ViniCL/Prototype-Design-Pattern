@@ -7,8 +7,8 @@ int main(){
 
     Car* carroClonado = carroEletrico->clone();
 
-    std::cout << carroEletrico->getMarca() << "\n";
-    std::cout << carroClonado->getMarca() << "\n";
+    std::cout << "Marca do carro original: " << carroEletrico->getMarca() << "\n";
+    std::cout << "Marca do carro clonado: " << carroClonado->getMarca() << "\n";
 
     return 0;
 }
