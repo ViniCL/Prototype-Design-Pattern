@@ -8,12 +8,12 @@ Car::Car( Car& car){
     Car::marca = car.getMarca();
 };
 
-void Car::setMarca( string nome ){
+void Car::setMarca( const string nome ){
     marca = nome;
 
 }
 
-string Car::getMarca(){
+string Car::getMarca() const{
     return marca;
 }
 

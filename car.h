@@ -10,8 +10,8 @@ class Car : Prototype {
 public:
     Car(string marca);
     Car(Car& car);
-    void setMarca( string nome );
-    string getMarca();
+    void setMarca( const string nome );
+    string getMarca() const;
 
     Car* clone();
 
