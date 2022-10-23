@@ -4,5 +4,5 @@ Dessa forma (clonando) conseguimos um novo objeto muito mais facilmente, pois ev
 
 Explicação do Código:
 prototype.h -> É a interface que contém o método de clonagem. As classes que poderão ser clonadas devem implementar sua funcionalidade; 
-car.cpp e car.h -> Exemplo simples de classe para criação de objetos. O importante aqui é observamos a herança da classe Prototype e a implementação do método Clone(), dessa forma todos os objetos tipo Car poderão ser clonados, simplesmente chamando esse método.   
+car.cpp e car.h -> Exemplo simples de classe para criação de objetos. O importante aqui é observarmos a herança da classe Prototype e a implementação do método Clone(), dessa forma todos os objetos tipo Car poderão ser clonados, simplesmente chamando esse método.   
 main.h -> Está mostrando como ocorre a clonagem do objeto. 
